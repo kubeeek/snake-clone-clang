@@ -1,0 +1,18 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "shell",
+            "command": "make all",
+            "args": [
+            ],
+            "options": {
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,9 @@
+{
+    "[makefile]": {
+        "editor.insertSpaces": false,
+        "editor.detectIndentation": false
+    },
+    "files.associations": {
+        "unistd.h": "c"
+    }
+}
