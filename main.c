@@ -367,9 +367,9 @@ int main(int argc, char *argv[])
 
         if (moveSnake(board, &player))
             break;
-        printw("Punkty: %i \n\n", SCORE);
+        printw("Score: %i \n\n", SCORE);
         render(board);
-        printw("X: %i, Y: %i, poziom trudnosci: %s", player.head->x, player.head->y, level);
+        printw("X: %i, Y: %i, difficulty level: %s", player.head->x, player.head->y, level);
         refresh();
         if (checkForCollision(player, board))
             break;
@@ -377,7 +377,7 @@ int main(int argc, char *argv[])
     }
 
     endwin();
-    printf("\n\n Twoj wynik to: %i\n\n", SCORE);
+    printf("\n\n Your score is: ", SCORE);
 
     return 1;
 }

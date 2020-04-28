@@ -15,14 +15,14 @@ int parseOptions(int argc, char *argv[], struct Options *options)
         switch (option)
         {
         case 'h':
-            printf("######## POMOC ####### \n");
-            printf("Dostepne parametry: \n\n");
+            printf("######## HELP ####### \n");
+            printf("Command line arguments: \n\n");
             printf("** -h -> pokazuje pomoc \n");
-            printf("** -x [liczba] -> definiuje rozmiar planszy planszy w szerokosci (standardowo 30) \n");
-            printf("** -y [liczba] -> definiuje rozmiar planszy planszy w wysokosci(tandardowo 30) \n");
-            printf("** -l [easy/normal/hard] -> ustawia poziom trudnosci (waz porusza sie wolniej, domyslnie normal)\n");
+            printf("** -x [integer] -> defines width of the game board (default 30) \n");
+            printf("** -y [integer] -> defines the height of the game board (default 30) \n");
+            printf("** -l [easy/normal/hard] -> defines difficulty level (the harder, the snake moves faster) \n");
 
-            printf("Gdy plansza pojawia się niepoprawnie, oznacza to, ze okno terminala jest za male.\n");
+            printf("When the board renders with any artifacts or error, it means the terminal window is too small.\n");
 
             return 0;
         case 'x':
