@@ -1,6 +1,3 @@
-#define _XOPEN_SOURCE 600
-#define _POSIX_C_SOURCE 200809L
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -342,7 +339,7 @@ int main(int argc, char *argv[])
         break;
     }
 
-    srand((unsigned int)time(NULL) * getpid());
+    srand((unsigned int)time(NULL));
 
     initscr();
     noecho();
@@ -377,7 +374,7 @@ int main(int argc, char *argv[])
     }
 
     endwin();
-    printf("\n\n Your score is: ", SCORE);
+    printf("\n\n Your score is: %i ", SCORE);
 
     return 1;
 }

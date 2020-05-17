@@ -15,6 +15,6 @@ add_executable(projekt
         utils.c
         utils.h)
 
-find_package(Curses REQUIRED )
-include_directories(${CURSES_INCLUDE_DIRS} )
-target_link_libraries(projekt ${CURSES_LIBRARIES} )
+find_package(Curses REQUIRED)
+include_directories(${CURSES_INCLUDE_DIRS})
+target_link_libraries(projekt ${CURSES_LIBRARIES})
