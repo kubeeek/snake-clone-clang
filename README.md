@@ -2,9 +2,9 @@
 
 ![preview](./preview.gif)
 
-This project was made a for C programming language class. It's pretty basic and it's only compatible with UNIX systems. 
+This project was made a for C programming language course. It's pretty basic and it's only compatible with UNIX systems. 
 
-It's written in ANSI-C with a small help of the `ncurses` library to handle input and terminal rendering.
+It's written in ANSI-C with a small help of the `ncurses` library to handle input and terminal rendering things.
 
 
 # Build
